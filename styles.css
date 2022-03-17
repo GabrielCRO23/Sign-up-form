@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+  }
+
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.picture {
+    width: 33%;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    color: white;
+    font-size: 60px;
+    font-family: Norse-Bold;
+    font-weight: 700;
+    background: rgba(0,0,0,.5);
+    width: 33%
+}
+
+.picture-2 {
+    width: 25%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    
+}
+
+.content-one {
+    
+    height: 33.3%;
+    background: rgba(0,0,0,.05);
+    background-clip: padding-box;
+    padding-left: 50px;
+    padding-top: 175px;
+    font-weight: 400;
+    font-size: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.content-two {
+    height: 33.3%;
+    padding-left: 50px;
+}
+
+
+
+.content-one-child {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    color: rgb(117, 111, 111);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.content-two-text {
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: lightslategray;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        
+}
+
+input {
+    border-radius: 5px;
+    border-color: #596D48
+}
+
+input:focus {
+    outline: none;
+    border:1px solid blue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 25px;
+}
+input[type=password] {
+    width: 200px;
+    height: 25px;
+}
+input[type=tel] {
+    width: 200px;
+    height: 25px;
+}
+input[type=email] {
+    width: 200px;
+    height: 25px;
+}
+
+button[type=submit] {
+    margin-top: 50px;
+    background-color: #596D48;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.account-already {
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
